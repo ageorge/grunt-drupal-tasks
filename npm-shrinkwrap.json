@@ -1,6 +1,6 @@
 {
   "name": "grunt-drupal-tasks",
-  "version": "0.11.1",
+  "version": "0.10.1",
   "dependencies": {
     "grunt": {
       "version": "1.0.1",
@@ -645,9 +645,15 @@
       "resolved": "https://registry.npmjs.org/grunt-available-tasks/-/grunt-available-tasks-0.6.2.tgz",
       "dependencies": {
         "chalk": {
+<<<<<<< HEAD
           "version": "1.1.3",
           "from": "chalk@>=1.1.1 <2.0.0",
           "resolved": "https://registry.npmjs.org/chalk/-/chalk-1.1.3.tgz",
+=======
+          "version": "1.1.1",
+          "from": "chalk@>=1.0.0 <2.0.0",
+          "resolved": "https://registry.npmjs.org/chalk/-/chalk-1.1.1.tgz",
+>>>>>>> Removing built-in support for Compass theme compilation and Ruby Bundle installation.
           "dependencies": {
             "ansi-styles": {
               "version": "2.2.1",
@@ -1299,6 +1305,7 @@
         }
       }
     },
+<<<<<<< HEAD
     "grunt-contrib-compass": {
       "version": "1.1.1",
       "from": "grunt-contrib-compass@>=1.0.4 <2.0.0",
@@ -1700,6 +1707,12 @@
       "version": "1.2.0",
       "from": "grunt-contrib-compress@>=1.0.0 <2.0.0",
       "resolved": "https://registry.npmjs.org/grunt-contrib-compress/-/grunt-contrib-compress-1.2.0.tgz",
+=======
+    "grunt-contrib-compress": {
+      "version": "1.1.1",
+      "from": "grunt-contrib-compress@>=1.0.0 <2.0.0",
+      "resolved": "https://registry.npmjs.org/grunt-contrib-compress/-/grunt-contrib-compress-1.1.1.tgz",
+>>>>>>> Removing built-in support for Compass theme compilation and Ruby Bundle installation.
       "dependencies": {
         "archiver": {
           "version": "0.21.0",
@@ -2007,9 +2020,15 @@
       "resolved": "https://registry.npmjs.org/grunt-contrib-copy/-/grunt-contrib-copy-1.0.0.tgz",
       "dependencies": {
         "chalk": {
+<<<<<<< HEAD
           "version": "1.1.3",
           "from": "chalk@>=1.1.1 <2.0.0",
           "resolved": "https://registry.npmjs.org/chalk/-/chalk-1.1.3.tgz",
+=======
+          "version": "1.1.1",
+          "from": "chalk@>=1.0.0 <2.0.0",
+          "resolved": "https://registry.npmjs.org/chalk/-/chalk-1.1.1.tgz",
+>>>>>>> Removing built-in support for Compass theme compilation and Ruby Bundle installation.
           "dependencies": {
             "ansi-styles": {
               "version": "2.2.1",
@@ -2375,9 +2394,15 @@
           }
         },
         "eslint": {
+<<<<<<< HEAD
           "version": "2.7.0",
           "from": "eslint@>=2.0.0 <3.0.0",
           "resolved": "https://registry.npmjs.org/eslint/-/eslint-2.7.0.tgz",
+=======
+          "version": "2.4.0",
+          "from": "eslint@>=2.0.0 <3.0.0",
+          "resolved": "https://registry.npmjs.org/eslint/-/eslint-2.4.0.tgz",
+>>>>>>> Removing built-in support for Compass theme compilation and Ruby Bundle installation.
           "dependencies": {
             "concat-stream": {
               "version": "1.5.1",
@@ -2386,7 +2411,7 @@
               "dependencies": {
                 "inherits": {
                   "version": "2.0.1",
-                  "from": "inherits@>=2.0.1 <2.1.0",
+                  "from": "inherits@>=2.0.0 <3.0.0",
                   "resolved": "https://registry.npmjs.org/inherits/-/inherits-2.0.1.tgz"
                 },
                 "typedarray": {
@@ -2546,9 +2571,15 @@
               }
             },
             "espree": {
+<<<<<<< HEAD
               "version": "3.1.3",
               "from": "espree@3.1.3",
               "resolved": "https://registry.npmjs.org/espree/-/espree-3.1.3.tgz",
+=======
+              "version": "3.1.2",
+              "from": "espree@>=3.1.1 <4.0.0",
+              "resolved": "https://registry.npmjs.org/espree/-/espree-3.1.2.tgz",
+>>>>>>> Removing built-in support for Compass theme compilation and Ruby Bundle installation.
               "dependencies": {
                 "acorn": {
                   "version": "3.0.4",
@@ -3419,9 +3450,15 @@
               "resolved": "https://registry.npmjs.org/sax/-/sax-1.2.1.tgz"
             },
             "xmlbuilder": {
+<<<<<<< HEAD
               "version": "8.2.2",
               "from": "xmlbuilder@>=2.4.6",
               "resolved": "https://registry.npmjs.org/xmlbuilder/-/xmlbuilder-8.2.2.tgz"
+=======
+              "version": "5.0.1",
+              "from": "xmlbuilder@>=2.4.6",
+              "resolved": "https://registry.npmjs.org/xmlbuilder/-/xmlbuilder-5.0.1.tgz"
+>>>>>>> Removing built-in support for Compass theme compilation and Ruby Bundle installation.
             }
           }
         }
