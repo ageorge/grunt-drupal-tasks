@@ -1,27 +1,20 @@
 # CHANGELOG
 
-## v0.11.1 [2016/04/17]
+## v1.0.0-pre
 
-- Fixed `grunt package` regression that custom code from the packaged outputs.
-
-## v0.11.0 [2016/04/12]
-
-- Updated example to use Grunt v1.x. Resolved peer dependency compatibility
-issues with dependencies.
-- Adding default options to use with `composer install` to improve performance
-and cacheability.
-- Added support for processing `*.make.yml` as Drush make files.
-- Fixed issue on Windows where copy:tempbuild was never called.
-- Updated dependencies in example project and for the plugin itself.
+- Dropped support for Node.js v0.12 and earlier and PHP v5.4 and earlier.
+- Removed built-in support for Compass theme compilation and Ruby bundle
+installation.
+- Updated dependencies.
 
 ### Upgrade Notes
 
-- Grunt should be a dependency in the `package.json` file of projects that use
-Grunt Drupal Tasks. It is recommended to update this to use Grunt `^1.0.0`. If
-projects include any dependency that specifies Grunt as a peer dependency and is
-limited to version `< 0.5`, then you may encounter an incompatible peer
-dependency error when running `npm install`. The recommended solution is to
-upgrade dependencies to versions that are compatible with Grunt v1.x.
+- Node.js v4 or later is required. Grunt Drupal Tasks is now compatible with
+Node.js v5.
+- PHP v5.5 or later is required.
+- Use of the built-in Compass theme compilation steps must be replaced by custom
+handling at the project- or theme-level.
+>>>>>>> Updating documentation and package.json version for 1.0.0-pre.
 
 ## v0.10.1 [2016/03/17]
 
