@@ -28,6 +28,7 @@ module.exports = function(grunt) {
         ],
       }
     });
+    grunt.config(['composer', 'drupal-scaffold'], {});
 
     Help.add({
       task: 'composer',
