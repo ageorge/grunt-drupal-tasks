@@ -13,16 +13,18 @@ This project is built on the tools of the Grunt community to provide scripted
 automation of a number of PHP & Drupal tasks. Here are a few examples of what it
 provides:
 
-* Configurable code structure that defaults to a clean development practice.
-* Drush make-based [build workflow](https://phase2.github.io/grunt-drupal-tasks/build).
-* Optional use of Composer,
-  [Code Quality & Static Analysis](https://phase2.github.io/grunt-drupal-tasks/quality), and [Frontend tooling](https://phase2.github.io/grunt-drupal-tasks/frontend) to extend the build process.
-* [Behat and SimpleTest Testing](https://phase2.github.io/grunt-drupal-tasks/testing)
-* [Deployment packaging](https://phase2.github.io/grunt-drupal-tasks/package)
-* [Git Hook management](https://phase2.github.io/grunt-drupal-tasks/git-hooks)
-* Desktop Notifications
-* Local Development Friendly
-* [CI](https://phase2.github.io/grunt-drupal-tasks/ci) Friendly
+* Composer workflow
+  * Drush make-based build workflow (for Drupal 7.x)
+* CI portability (used with Jenkins so far)
+* Opt-in for a number of great enhancements:
+  * Composer dependency management for PHP
+  * Bundler dependency management for Ruby
+  * PHP code quality & static analysis checks
+  * Compass compilation
+  * Behat testing
+* Deployment packaging
+* Git Hook management
+* Extensibility: Add or override with your plugins or configuration.
 
 We are continuously working to improve this toolchain, adding functionality that
 we see as common to our _continuous integration_ and everyday development
